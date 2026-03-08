@@ -6,6 +6,14 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "Lookingfor — Intent City",
+    url: "https://looking-for-lovat.vercel.app/",
+    image: "/projects/lookingfor.jpg",
+    description:
+      "A real-time social discovery platform that connects people based on what they want to do right now. Users select their intent, discover nearby people with the same goal, and connect instantly for activities like studying, networking, or hanging out. The platform bridges digital discovery with real-world interaction, making meeting new people fast, simple, and meaningful.",
+    tech: ["Next.js", "Three.js", "REST API", "PostgreSQL", "SQL", "Neon DB"],
+  },
+  {
     title: "Anna Market",
     url: "https://anna-market-659b.vercel.app",
     image: "/projects/anna-market.jpg",
