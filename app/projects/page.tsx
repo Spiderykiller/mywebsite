@@ -6,8 +6,23 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "FlowTrip — Elite Travel Experience",
+    url: "https://flowtripweb.vercel.app",
+    image: "/projects/flowtrip.jpg",
+    description:
+      "A premium AI-powered travel platform designed to deliver seamless global travel experiences through intelligent trip discovery, luxury destination exploration, modern booking flows, and immersive visual interactions. Built with a futuristic design system and high-performance architecture, FlowTrip blends elegance, speed, and scalability into a world-class digital travel experience.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Neon DB",
+      "REST API",
+    ],
+  },
+  {
     title: "Lookingfor — Intent City",
-    url: "https://looking-for-lovat.vercel.app/",
+    url: "https://looking-forr.vercel.app",
     image: "/projects/lookingfor.jpg",
     description:
       "A real-time social discovery platform that connects people based on what they want to do right now. Users select their intent, discover nearby people with the same goal, and connect instantly for activities like studying, networking, or hanging out. The platform bridges digital discovery with real-world interaction, making meeting new people fast, simple, and meaningful.",
